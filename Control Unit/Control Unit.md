@@ -1,6 +1,6 @@
 1. [Control Unit Operation](Control%20Unit%20Design.md)
 2. [Instruction Set](Instruction%20Set.md)
-3. [Home](..\Home.md)
+3. [Home](..\README.md)
 
 ![control_overview.png](Images/control_overview.png)
 
