@@ -5,7 +5,7 @@ The objective of this project is to:
 
 ![[cpu_interface.png|416]]![[Pasted image 20260525163711.png|697]]
 # Components
-1. [[Arithmetic Logic Unit]]
+1. [[Arithmetic Logic Unit.md]]
 2. [[Memory]]
 3. [[Control Unit]]
 # CPU Architecture Basics
