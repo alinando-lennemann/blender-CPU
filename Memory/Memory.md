@@ -1,7 +1,7 @@
-1. [Operation](Memory/Operation.md)
-2. [Home](Home.md)
+1. [[Memory/Operation.md]]
+2. [[Home.md]]
 
-![249](memory_overview%201.png)![155](memory_geometric.png)
+![[memory_overview 1.png|249]]![[memory_geometric.png|155]]
 
 # Specifications
 | Input        | Description                                                        |

@@ -1,8 +1,8 @@
-1. [ALU Operation](ALU%20Operation.md)
-2. [Opcode](Opcode.md)
+1. [[ALU Operation.md]]
+2. [[Opcode.md]]
 3. [[Home]
 
-![279](alu_overview.png) ![203](alu_full.png)
+![[alu_overview.png|279]] ![[alu_full.png|203]]
 # Specifications
 | Inputs         | Description                                                                        |
 | -------------- | ---------------------------------------------------------------------------------- |

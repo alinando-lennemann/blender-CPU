@@ -1,4 +1,4 @@
-[Back](Arithmetic%20Logic%20Unit.md)
+[[Arithmetic Logic Unit.md|Back]]
 # Opcode Table
 
 | Opcode | M-Low                      | M-High                    |
@@ -20,6 +20,6 @@
 | `1110` | A == B                     | A == B                    |
 | `1111` | Clear                      | Set All                   |
 # Notes
-These opcode assignments are *not* the same as the opcodes in the [Instruction Set](Instruction%20Set.md). Raw machine code is translated to an appropriate ALU opcode using multiplexers, before being sent to the ALU itself. 
+These opcode assignments are *not* the same as the opcodes in the [[Instruction Set.md]]. Raw machine code is translated to an appropriate ALU opcode using multiplexers, before being sent to the ALU itself. 
 
 Operations are assigned to optimize for circuitry reuse. For example, bitwise logical operators are complements of each others depending on the value of M. However, efficiency wasn't a priority concern for me - it's only a 4-bit CPU, and the PC I'm running the blender file on is powerful enough to reuse things a bit. A more organized node setup was a higher priority.

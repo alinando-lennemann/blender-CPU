@@ -1,4 +1,4 @@
-[Back](Arithmetic%20Logic%20Unit.md)
+[[Arithmetic Logic Unit.md|Back]]
 # Input
 Our ALU takes in 5 bits of opcode. This is organized in one 4-bit number and a control bit, labeled M. This is just to keep it organized - many operations share a lot of circuitry, and M is the control node to switch between similar operations (e.g. Bitwise AND and Bitwise NAND).
 
@@ -11,11 +11,11 @@ In addition to the 4-bit data output, labeled Y, the ALU will also output status
 | Carry-Out | Carry from addition operation, borrow from subtraction, or overflow from a binary shift |
 | Zero      | When all bits of Y are 0                                                                |
 | Overflow  | When arithmetic operation exceeds the numeric range of Y                                |
-![alu_v1_status](alu_v1_status.png)
+![[alu_v1_status.png]]
 # Operation
 Every function is wired into a set of multiplexers that select the corresponding functions based on the input opcode. Multiplexers are made using switch nodes. Two 8-1 multiplexers are wired together in order to account for all the functions. The multiplexers themselves are fairly straightforward 4-way AND and NOT nodes wired together.
 
-![alu_multiplexers 1](alu_multiplexers%201.png)
+![[alu_multiplexers 1.png]]
 # Functions
 
 | Function             | Description                                                                                          | Design Notes                                                                                                                                                                        |
