@@ -49,11 +49,3 @@ Every function is wired into a set of multiplexers that select the corresponding
 |A == B|Comparison functions.|Return 0001 if they're equal, otherwise 0000|
 |Clear|Set all outputs of Y to 0.||
 |Set|Set all outputs of Y to 1.||
-
-````img-gallery
-path: Arithmetic Logic Unit/Images
-type: vertical
-gutter: 4
-radius: 4
-columns: 2
-````
