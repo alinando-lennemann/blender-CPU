@@ -26,7 +26,7 @@ Then, recombining the strings, we have successfully converted human-readable cod
 
 # Registers and Memory
 
-Registers are designed identically to the [memory](../Memory/Memory.md), just with one single storage point instead of multiple addresses. Register A is our primary accumulator. Most instructions load things into Register A or use Register A's value. In fact, the only time Register B is written to or read from is through two-operand ALU operations and when loading it (which can only be done through Register A).
+Registers are designed identically to the [memory](../Memory/Memory), just with one single storage point instead of multiple addresses. Register A is our primary accumulator. Most instructions load things into Register A or use Register A's value. In fact, the only time Register B is written to or read from is through two-operand ALU operations and when loading it (which can only be done through Register A).
 
 We load registers using switch nodes, that switch outputs based on a Boolean logical selection. If the opcode matches the appropriate instruction (checked using multiplexers) and the clock is at the appropriate state, then the existing register value is overridden for the new one.
 
