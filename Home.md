@@ -59,6 +59,6 @@ Input is controlled by the position of a set of axes which the user can move. Th
 
 ![cpu_inputoutput.png](Images/cpu_inputoutput.png)
 
-![cpu_input.png](Images\cpu_input.png)
+![cpu_input.png](Images/cpu_input.png)
 
 Output is just a 4-bit binary number. It is possible, again, to create an external module to associate that 4-bit number with some visual representation. However, the current setup does not implement this. Along with the main output are a series of status outputs that show the inner workings of the CPU.
