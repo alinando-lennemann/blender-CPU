@@ -15,13 +15,14 @@ In addition to the 4-bit data output, labeled Y, the ALU will also output status
 |Carry-Out|Carry from addition operation, borrow from subtraction, or overflow from a binary shift|
 |Zero|When all bits of Y are 0|
 |Overflow|When arithmetic operation exceeds the numeric range of Y|
-|![alu_v1_status.png](Images\alu_v1_status.png)||
+
+![alu_v1_status.png](Images/alu_v1_status.png)
 
 # Operation
 
 Every function is wired into a set of multiplexers that select the corresponding functions based on the input opcode. Multiplexers are made using switch nodes. Two 8-1 multiplexers are wired together in order to account for all the functions. The multiplexers themselves are fairly straightforward 4-way AND and NOT nodes wired together.
 
-![alu_multiplexers 1.png](Images\alu_multiplexers%201.png)
+![alu_multiplexers 1.png](Images/alu_multiplexers%201.png)
 
 # Functions
 
