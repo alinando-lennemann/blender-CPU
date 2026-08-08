@@ -28,7 +28,7 @@ Geometry nodes are a system that allows us to modify the geometry of an object u
 
 The key feature that makes a CPU possible is the [**Simulation Node**](https://docs.blender.org/manual/en/latest/physics/simulation_nodes.html). This node uses the results of the previous frame in calculations for the next one, allowing for recursive operations.
 
-![sim_zone.png](Images\sim_zone.png)
+![sim_zone.png](Images/sim_zone.png)
 
 Within the simulation zone, parameters are recalculated every frame. This is *essential* for the design of a CPU. Something as simple as a flip-flop is not possible without this node, and neither is, for example, a register. Even so, there are some limitations and quirks that this medium introduces.
 
@@ -57,7 +57,7 @@ There is also logic to jump to another line, which is achieved by overriding the
 
 Input is controlled by the position of a set of axes which the user can move. The current setup allows for four possible inputs - 1000, 0100, 0010, and 0001. However, this is a modular setup and is a different node. The input in the CPU itself allows for any 4-bit binary integer to be inputted, so the user could change this. The program is loaded in from a text file.
 
-![cpu_inputoutput.png](Images\cpu_inputoutput.png)
+![cpu_inputoutput.png](Images/cpu_inputoutput.png)
 
 ![cpu_input.png](Images\cpu_input.png)
 
