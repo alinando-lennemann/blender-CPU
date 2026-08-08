@@ -1,6 +1,6 @@
 ---
 ---
-[Back](Arithmetic%20Logic%20Unit.md)
+[Back](Arithmetic%20Logic%20Unit)
 
 # Opcode Table
 
