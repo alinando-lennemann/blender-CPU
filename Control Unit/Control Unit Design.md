@@ -1,3 +1,5 @@
+---
+---
 # The 3-Step Cycle
 
 A two-bit counter is used in order to track what step of the instruction cycle the CPU is on. The assignments are as follows:
