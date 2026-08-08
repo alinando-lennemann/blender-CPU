@@ -7,7 +7,8 @@ A two-bit counter is used in order to track what step of the instruction cycle t
 |00|Decode|
 |01|Execute|
 |10|Jump|
-|This two-bit synchronous counter is built of JK flip-flops wired together. A JK flip flop is wired up using [the truth table](https://www.geeksforgeeks.org/digital-logic/what-is-jk-flip-flop/), the result of which is fed into a switch node that only switches if it is the rising edge of the clock cycle. Otherwise, the previous state is stored.||
+
+This two-bit synchronous counter is built of JK flip-flops wired together. A JK flip flop is wired up using [the truth table](https://www.geeksforgeeks.org/digital-logic/what-is-jk-flip-flop/), the result of which is fed into a switch node that only switches if it is the rising edge of the clock cycle. Otherwise, the previous state is stored.
 
 Because these JK Flip-flops are not designed with reset pins, the wiring for the clock is slightly different in order to make it count from 00 to 10 and reset.
 
