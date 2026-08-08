@@ -34,4 +34,4 @@ We load registers using switch nodes, that switch outputs based on a Boolean log
 
 Jump instructions override the existing stored [character index](Control%20Unit%20Design.md#instruction-decoding), sometimes based on conditionals (like whether the carry signal is active), and sometimes unconditionally. Again, this is done with a switch node that only activates when the opcode matches the appropriate instruction.
 
-![514](Images\control_jump.png)
+![514](Images/control_jump.png)
