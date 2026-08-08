@@ -4,7 +4,7 @@ The objective of this project is to:
 * Attempt to emulate real-world chip architecture strategies.
 * Create a running program in this CPU
 
-![416](Images\cpu_interface.png)
+![416](Images/cpu_interface.png)
 
 # Components
 
