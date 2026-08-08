@@ -1,8 +1,8 @@
 1. [Control Unit Operation](Control%20Unit%20Design.md)
-1. [Instruction Set](Instruction%20Set.md)
-1. [Home](..\Home.md)
+2. [Instruction Set](Instruction%20Set.md)
+3. [Home](..\Home.md)
 
-![control_overview.png](Images\control_overview.png)
+![control_overview.png](Images/control_overview.png)
 
 # Description
 
