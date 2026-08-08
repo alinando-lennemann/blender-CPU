@@ -20,7 +20,7 @@ A **control unit** synchronizes the CPUs operations to a clock circuit and coord
 
 A CPU executes four functions: fetch, decode, execute, and store. It fetches data from main memory, interprets those instructions, executes them, and sends data back to memory.
 
-![cpu_diagram.png](Images\cpu_diagram.png)
+![cpu_diagram.png](Images/cpu_diagram.png)
 
 # Geometry Nodes
 
