@@ -1,3 +1,5 @@
+---
+---
 This instruction set is very loosely based on the instruction set for a 4-bit CPU project I found online, [The Nibbler](https://www.bigmessowires.com/nibbler/). However, the Nibbler uses 4-bit instructions, while our CPU has one 4-bit instruction and one control bit, allowing for 32 instructions (of which 16 are actually used). This allows us to take full advantage of the various operations in our ALU. All operations affect register A by default.
 
 |Instruction|Control LOW|Control HIGH|Description|ALU Opcode|
