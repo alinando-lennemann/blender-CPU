@@ -2,7 +2,7 @@
 ---
 1. [ALU Operation](ALU%20Operation)
 1. [Opcode](Opcode)
-1. [Home](../README)
+1. [Home](../README.md)
    
 ![279](alu_overview.png) ![203](alu_full.png)
 
