@@ -1,5 +1,5 @@
 1. [Operation](Operation.md)
-1. [Home](..\Home.md)
+1. [Home](../README.md)
 
 ![249](Images/memory_overview%201.png)![155](Images/memory_geometric.png)
 
