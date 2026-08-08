@@ -4,6 +4,8 @@ The objective of this project is to:
 * Attempt to emulate real-world chip architecture strategies.
 * Create a running program in this CPU
 
+Links: [Github](https://github.com/alinando-lennemann/blender-CPU), [Youtube Demo](https://youtu.be/FtSItVdbz3w)
+
 ![416](Images/cpu_interface.png)
 
 # Components
