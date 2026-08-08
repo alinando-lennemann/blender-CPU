@@ -8,9 +8,9 @@ The objective of this project is to:
 
 # Components
 
-1. [Arithmetic Logic Unit](Arithmetic%20Logic%20Unit\Arithmetic%20Logic%20Unit.md)
-1. [Memory](Memory\Memory.md)
-1. [Control Unit](Control%20Unit\Control%20Unit.md)
+1. [Arithmetic Logic Unit](Arithmetic%20Logic%20Unit\Arithmetic%20Logic%20Unit)
+1. [Memory](Memory\Memory)
+1. [Control Unit](Control%20Unit\Control%20Unit)
 
 # CPU Architecture Basics
 
