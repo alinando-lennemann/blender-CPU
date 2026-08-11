@@ -24,7 +24,7 @@ This instruction set is very loosely based on the instruction set for a 4-bit CP
 The format of an instruction is as follows:
 
 $$
-\underbrace{\text{XXX}}_{\text{Mnemonic }} \space \underbrace{\text{####}}_{\text{Operand }} \space ;
+\underbrace{\text{XXX}}_{\text{Mnemonic }} \space \underbrace{\text{\#\#\#\#}}_{\text{Operand }} \space ;
 $$
 
 If an instruction does not require an operand (as many do not), the user *must still put* a four-digit operand. It will not affect the result, but is required for the human-to-machine translation. The first instruction *must* be a blank line; when the text file is converted to a string, the newline character is assumed before every instruction.
