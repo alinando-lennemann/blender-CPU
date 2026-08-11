@@ -57,7 +57,7 @@ There is also logic to jump to another line, which is achieved by overriding the
 
 # I/O
 
-Input is controlled by the position of a set of axes which the user can move. The current setup allows for four possible inputs - 1000, 0100, 0010, and 0001. However, this is a modular setup and is a different node. The input in the CPU itself allows for any 4-bit binary integer to be inputted, so the user could change this. The program is loaded in from a text file.
+Input is controlled by the position of a set of axes which the user can move. The current setup allows for four possible inputs - 1000, 0100, 0010, and 0001. However, this is a modular setup and is a different node. The input in the CPU itself allows for any 4-bit binary integer to be inputted, so the user could change this if they want to. The program is loaded in from a text file.
 
 ![cpu_inputoutput.png](Images/cpu_inputoutput.png)
 
