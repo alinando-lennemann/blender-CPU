@@ -22,15 +22,19 @@ This instruction set is very loosely based on the instruction set for a 4-bit CP
 |`0xF`|CLR|SET|Clear or set register A to `0000` or `1111`|`1111`|
 
 The format of an instruction is as follows:
+
 $$
-\underbrace{\text{XXX}}_{\text{Mnemonic }} \space \underbrace{\text{\#\#\#\#}}_{\text{Operand }} \space ;
+\underbrace{\text{XXX}}_{\text{Mnemonic }} \space \underbrace{\text{####}}_{\text{Operand }} \space ;
 $$
+
 If an instruction does not require an operand (as many do not), the user *must still put* a four-digit operand. It will not affect the result, but is required for the human-to-machine translation. The first instruction *must* be a blank line; when the text file is converted to a string, the newline character is assumed before every instruction.
 
 Then, the system will translate this into binary machine-code using this format:
+
 $$
 \underbrace{\text{Control}}_{\text{Bit } [8]} \quad \underbrace{\text{Opcode}}_{\text{Bits } [7:4]} \quad \underbrace{\text{Operand}}_{\text{Bits } [3:0]}
 $$
+
 For example, the command `LDI 1001;` will be translated to `1 0000 1001`, where the instruction is 0x0, the control bit is set to HIGH, and the operand is 1001.
 
  > 
